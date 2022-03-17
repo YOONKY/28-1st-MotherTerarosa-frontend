@@ -6,7 +6,7 @@ import ProductImageArea from './ProductImageList/ProductImageArea';
 import ProductInfo from './ProductInfo/ProductInfo';
 import SkeletonShopDetail from './SkeletonShopDetail';
 import { api } from 'config';
-import useFetch from 'hooks/useFetch';
+import useFetch from 'Hooks/useFetch';
 import './ShopDetail.scss';
 
 function ShopDetail() {
