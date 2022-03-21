@@ -89,6 +89,7 @@ function Main() {
           />
         </div>
       </div>
+      <div>log</div>
       <div className="productsListWrapper">
         {productsList.map((productsLists, idx) => (
           <ProductsList key={idx} productsLists={productsLists} />
